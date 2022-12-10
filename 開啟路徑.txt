@@ -1,0 +1,25 @@
+
+streamlit run 路徑/Brand_Label_System.py
+
+streamlit run C:/Users/8889/Desktop/streamlit_app/Brand_Label_System.py
+
+streamlit run C:/Users/8889/Desktop/streamlit_app/butt.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
