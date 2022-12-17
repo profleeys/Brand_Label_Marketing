@@ -115,7 +115,7 @@ if alg == 'Decision Tree':
 
 
             pred_prob_df = pd.DataFrame(pred_prob_df.values,columns=mark_col_name)   
-            plt.rcParams['font.sans-serif'] = ['SimHei'] 
+            plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] 
             plt.rcParams['axes.unicode_minus'] = False
             def plot_porb(flag):
                 fig, ax = plt.subplots()
@@ -208,7 +208,7 @@ if alg == 'Decision Tree':
                 pred_prob_df=pd.concat([pred_prob_df,tmp],axis=1,ignore_index=True)
 
             pred_prob_df = pd.DataFrame(pred_prob_df.values,columns=mark_col_name)        
-            plt.rcParams['font.sans-serif'] = ['SimHei'] 
+            plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] 
             plt.rcParams['axes.unicode_minus'] = False
             def plot_porb(flag):
                 fig, ax = plt.subplots()
@@ -325,7 +325,7 @@ if alg == 'Decision Tree':
                 pred_prob_df=pd.concat([pred_prob_df,tmp],axis=1,ignore_index=True)
 
             pred_prob_df = pd.DataFrame(pred_prob_df.values,columns=mark_col_name)        
-            plt.rcParams['font.sans-serif'] = ['SimHei'] #Microsoft JhengHei
+            plt.rcParams['font.sans-serif'] = ['Microsoft JhengHei'] #Microsoft JhengHei
             plt.rcParams['axes.unicode_minus'] = False
             def plot_porb(flag):
                 fig, ax = plt.subplots()
