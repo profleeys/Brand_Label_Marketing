@@ -15,11 +15,11 @@ import os
 st.set_page_config(layout="wide")
 ###
 path = os.getcwd()
-feature_df = pd.read_csv(path+'/Desktop/streamlit_app/Feature_small.csv')
-mark_col = pd.read_csv(path+'/Desktop/streamlit_app/Mark_small.csv')
-model = joblib.load(path+'/Desktop/streamlit_app/dt_1step_model.pkl')
-model_1 = joblib.load(path+'/Desktop/streamlit_app/dt_2step_model.pkl')
-model_2 = joblib.load(path+'/Desktop/streamlit_app/dt_1step_model.pkl')
+feature_df = pd.read_csv(path+'/Feature_small.csv')
+mark_col = pd.read_csv(path+'/Mark_small.csv')
+model = joblib.load(path+'/dt_1step_model.pkl')
+model_1 = joblib.load(path+'/dt_2step_model.pkl')
+model_2 = joblib.load(path+'/dt_1step_model.pkl')
 ###
 mark_col_name = mark_col.columns
 feature_col_name = feature_df.columns
@@ -56,7 +56,7 @@ if alg == 'Decision Tree':
             #load txt
             rule = []
             string = '(twitter)'
-            f = open(path+'/Desktop/streamlit_app/sort 分析詞_1105.txt', encoding='UTF-8') 
+            f = open(path+'/sort 分析詞_1105.txt', encoding='UTF-8') 
             lines = f.readlines()
             for line in lines:
                 line = line.strip('\n')
@@ -129,7 +129,7 @@ if alg == 'Decision Tree':
             #load txt
             rule = []
             string = '(twitter)'
-            f = open(path+'/Desktop/streamlit_app/sort 分析詞_1105.txt', encoding='UTF-8') 
+            f = open(path+'/sort 分析詞_1105.txt', encoding='UTF-8') 
             lines = f.readlines()
             for line in lines:
                 line = line.strip('\n')
@@ -222,7 +222,7 @@ if alg == 'Decision Tree':
             #load txt
             rule = []
             string = '(twitter)'
-            f = open(path+'/Desktop/streamlit_app/sort 分析詞_1105.txt', encoding='UTF-8') 
+            f = open(path+'/sort 分析詞_1105.txt', encoding='UTF-8') 
             lines = f.readlines()
             for line in lines:
                 line = line.strip('\n')
