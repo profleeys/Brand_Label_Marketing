@@ -1,2 +1,2 @@
-language-pack-zh*
+language-pack-zh
 chinese*
