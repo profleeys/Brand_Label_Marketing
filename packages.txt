@@ -1,2 +1,2 @@
-language-pack-zh-han*
+language-pack-zh-hant-base
 chinese*
